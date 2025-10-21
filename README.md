@@ -11,6 +11,7 @@ To write a Python program that calculates the **area of a circle** based on the 
 4. **Execute the program**: Create an object of the class and call the method with the radius value.
 
 ## 🧾 Program
+~~~
 # Step 1: Get user input for the radius
 radius = float(input("Enter the radius of the circle: "))
 
@@ -26,7 +27,7 @@ class cse:
 circle = cse()      # Create an object of the class
 circle.mech(radius) # Call the method with the radius
 
-
+~~~
 ## Output
 ![alt text](image.png)
 ## Result
@@ -46,6 +47,7 @@ To write a Python program that merges **two dictionaries** and combines their ke
 3. Call the `merge()` function and print the merged dictionary.
 
 ## 🧾 Program
+~~~
 # Step 1: Define two dictionaries
 dict1 = {'a': 1, 'b': 2, 'c': 3}
 dict2 = {'b': 20, 'd': 4}
@@ -58,7 +60,7 @@ def merge(d1, d2):
 # Step 3: Call the merge() function and print the result
 result = merge(dict1, dict2)
 print("Merged dictionary:", result)
-
+~~~
 
 ## Output
 ![alt text](image-1.png)
@@ -100,6 +102,7 @@ To write a Python program that sorts a dictionary's:
 ---
 
 ## 🧪Program
+~~~
 # Step 1 & 2: Start the program and define a dictionary
 dictionary = {'apple': 3, 'banana': 1, 'cherry': 2, 'date': 4}
 
@@ -114,7 +117,7 @@ print("Original dictionary:", dictionary)
 print("Dictionary sorted by keys:", sorted_by_keys)
 print("Dictionary sorted by values:", sorted_by_values)
 
-
+~~~
 
 ## Sample Output
 ![alt text](image-2.png)
@@ -139,6 +142,7 @@ To write a Python program that handles an **IndexError** when trying to access a
 3. Print the result based on whether the index access succeeds or fails.
 
 ## 🧾 Program
+~~~
 # Step 1: Define a list with some integer elements
 list1 = [10, 20, 30, 40]
 
@@ -150,7 +154,7 @@ try:
 except IndexError:
     # Catch the error and print a custom message
     print("You're out of list range")
-
+~~~
 
 ## Output
 ![alt text](image-3.png)
@@ -176,6 +180,7 @@ To write a Python program that counts the number of lines in a text file `story.
 4. After processing all lines, print the `count` value, which represents the number of lines that do not start with `'T'`.
 
 ## 🧾 Program
+~~~
 # Step 1: Open the file 'story.txt' in read mode
 with open("story.txt", "r") as file:
     # Step 2: Initialize a counter
@@ -191,7 +196,7 @@ with open("story.txt", "r") as file:
 
 # Step 4: Print the count of lines that do not start with 'T'
 print("Number of lines not starting with 'T':", count)
-
+~~~
 
 ## Output
 ![alt text](image-4.png)
